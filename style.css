@@ -1,0 +1,295 @@
+#ventprincipal{
+    background-image: url("https://bitfinanzas.com/wp-content/uploads/Polygon-y-otras-blockchains.jpg");
+    border:1px solid rgb(1, 1, 41);
+    margin: 0 auto;
+}
+
+#main{
+    display:flex;
+    flex-direction:column;
+}
+
+#main2{
+    display:flex;
+    flex-direction:column;
+}
+
+#menu{
+    display:flex;
+    flex-direction:row;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    display:flex;
+    padding:20px;
+    background:pink;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color:pink;
+    opacity:0.6;
+}
+
+#header{
+    padding: 10px;
+}
+
+h1{
+    text-transform: uppercase;
+    padding:10px;
+    color: pink;
+    font-family:fantasy;
+    font-style: normal;
+}
+
+h2{
+    text-transform: uppercase;
+    padding:10px;
+    color: pink;
+    font-family:fantasy;
+    font-style: normal;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 85%;
+    font-weight: bold;
+    font-family:arial;
+    font-style: normal;
+}
+
+#h32{
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: bold;
+    font-family:arial;
+    font-style: normal;
+}
+
+
+h4{
+    text-transform: uppercase;
+    padding:10px;
+    font-size: 85%;
+    text-shadow: pink 1px 0px 10px;
+    font-family:arial;
+    font-style: normal;
+}
+
+h5{
+    margin:1%;
+    font-size:60%;
+    text-transform:uppercase;
+    font-family:arial;
+    font-style: normal;
+
+}
+
+p{
+    font-size:85%;
+    margin:4%;
+    margin-bottom:3%;
+    justify-content: auto;
+    font-family:arial;
+    font-style: normal;
+}
+
+li{
+    font-size:85%;
+    font-family:arial;
+    font-style: normal;
+}
+
+#fil{
+    margin: 10px;
+    display:flex;
+    padding:10px;
+    border:1px solid rgb(1, 1, 41);
+    justify-content: flex-start;
+    flex-direction: column;
+    background: white;
+}
+
+#fil2{
+    margin: 10px;
+    display:flex;
+    padding:10px;
+    border:1px solid black;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("https://www.compartirwifi.com/blog/wp-content/uploads/2018/04/AAEAAQAAAAAAAAeeAAAAJDkzOTkxMGM5LTBiNTAtNDFiOC1iOGY4LTA0YzI5OWY2ZGU2NQ-e1483566736756-990x565.jpg");
+}
+
+#fil22{
+    margin: 10px;
+    display:flex;
+    padding:10px;
+    border:1px solid rgb(1, 1, 41);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("https://www.compartirwifi.com/blog/wp-content/uploads/2018/04/AAEAAQAAAAAAAAeeAAAAJDkzOTkxMGM5LTBiNTAtNDFiOC1iOGY4LTA0YzI5OWY2ZGU2NQ-e1483566736756-990x565.jpg");
+}
+
+#fil3{
+    margin: 10px;
+    display:flex;
+    padding:10px;
+    background: white;
+    border:1px solid black;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+#fil32{
+    margin: 10px;
+    display:flex;
+    padding:10px;
+    border:1px solid black;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: white;
+
+}
+
+#fil4{
+    width: 84%;
+    display:flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+#fil42{
+    width: 84%;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer{
+    margin: 10px;
+    display:flex;
+    padding:10px;
+    border:1px solid black;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: white;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+#img1{
+    margin-top:10px;
+    margin-bottom:10px;
+    width: 100%;
+}
+
+#img2{
+    width:50%;
+    padding-left:24%;
+    margin-bottom:10px;
+}
+
+#img3{
+    border-radius: 50%;
+    margin:10%;
+    width:100%;
+    height: 100%;
+}
+
+.clear{
+    clear:both;
+}
+
+span{
+    margin-top:0.5%;
+    font-family:sans-serif;
+    font-style: normal;
+}
+
+#ul2{
+    color:white;
+}
+
+@media(min-width:800px){
+    #main{
+        padding-left:5%;
+        padding-right:3%;
+        text-align: center;
+        display:flex;
+        flex-direction:row;
+        margin-bottom:3%;
+    }
+    #main2{
+        text-align:center;
+    }
+    #fil{
+        width: 31%;
+        padding:2px;
+        margin:3px;
+    }
+    #fil3{
+        width: 48%;
+        padding:2px;
+        margin:3px;
+    }
+    #menu{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        position:relative;
+        background: black;
+        border-color:black;
+        opacity: 1;
+        padding-right:10%;
+    }
+    a{
+        color:white;
+    }
+    #fil42{
+        display:flex;
+        flex-direction: row;
+    }
+    #img1{
+        margin-right: 10px;
+        width: 33%;
+    }
+    h5{
+        font-size: 100%;
+        color:white;
+        margin-right:5%;
+    }
+    #img2{
+        height: auto;
+        width:auto;
+        padding-left: 0;
+    }
+    #img3{
+        width: 40%;
+        height: 40%;
+        margin:5%;
+    }
+    #fil2{
+        text-align: center;
+    }
+    #fil22{
+        display:flex;
+        flex-direction: row;
+    }
+    span{
+        height:0;
+        width:0;
+    }
+    #h32{
+        font-size:120%;
+    }
+    #ul2{
+        color:black;
+    }
+}
+
+
